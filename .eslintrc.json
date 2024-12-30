@@ -11,5 +11,5 @@
     "sourceType": "module"
   },
   "rules": {},
-  "ignorePatterns": ["dist/*"]
+  "ignorePatterns": ["dist/*", "docs/*"]
 }
