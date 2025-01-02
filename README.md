@@ -215,7 +215,7 @@ This project uses [TypeDoc](https://typedoc.org/) for generating documentation.
 Generate documentation with:
 
 ```sh
-npx typedoc --entryPoints src/index.js --out docs
+npm run typedoc
 ```
 
 ## Contributing
