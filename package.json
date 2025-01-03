@@ -21,6 +21,10 @@
   ],
   "author": "Sanjeevi Rajagopalan",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjeevir/gitlab-node-client.git"
+  },
   "devDependencies": {
     "@babel/core": "^7.23.0",
     "@babel/eslint-parser": "^7.25.9",

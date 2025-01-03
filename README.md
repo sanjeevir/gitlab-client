@@ -14,8 +14,7 @@
 
 ## Badges
 
-[![GitLab Pipeline Status](https://gitlab.com/your-repo/gitlab-node-client/badges/main/pipeline.svg)](https://gitlab.com/your-repo/gitlab-node-client/-/pipelines)
-[![GitHub Actions Status](https://github.com/your-repo/gitlab-node-client/actions/workflows/ci.yml/badge.svg)](https://github.com/your-repo/gitlab-node-client/actions)
+[![GitHub Actions Status](https://github.com/sanjeevir/gitlab-node-client/actions/workflows/ci.yml/badge.svg)](https://github.com/sanjeevir/gitlab-node-client/actions)
 [![npm version](https://img.shields.io/npm/v/@sungv/gitlab-node-client.svg)](https://www.npmjs.com/package/@sungv/gitlab-node-client)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -175,25 +174,6 @@ The module uses custom error classes (GitLabAPIError, GitLabNotFoundError, GitLa
 - **Lint:** `npm run lint`
 - **Format:** `npm run format`
 - **Prepare (Husky hooks):** `npm run prepare`
-
-### Directory Structure
-
-```
-.gitlab-node-client/
-├── src/                # Source code
-│   └── index.js        # Entry point
-├── tests/              # Test files
-│   └── example.test.js # Example test case
-├── dist/               # Build output
-├── .eslintrc.json      # ESLint configuration
-├── jest.config.js      # Jest configuration
-├── rollup.config.js    # Rollup configuration
-├── package.json        # NPM package configuration
-├── .gitlab-ci.yml      # GitLab CI configuration
-├── .github/workflows/ci.yml # GitHub Actions workflow
-├── .prettierrc         # Prettier configuration
-└── README.md           # Documentation
-```
 
 ### Code Style Guide
 
